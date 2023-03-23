@@ -1,0 +1,106 @@
+body {
+    font-family: monaco, monospace;
+    background-color: rgb(200, 161, 145);
+} 
+
+h1 {
+    color:rgb(94, 40, 128);
+    text-align: center;
+}
+
+h5{
+    color:rgb(94, 40, 128);
+    text-align: center;
+}
+
+a:link{
+    color:rgb(94, 40, 128);
+}
+
+a:hover{
+    color:rgb(110, 155, 133);
+}
+
+
+.even-columns{
+    display: flex;
+}
+.even-columns *{
+    width: 100%;
+    padding-left: 20px;
+    padding-right:20px;
+    
+}
+
+.circle-image {
+    border-radius: 50%;
+    
+}
+.sandbox img{
+    
+}
+
+    .sandbox img:hover{
+        
+    }
+
+img{
+    box-shadow: 5px 5px 5px rgb(102, 84, 113);
+    -webkit-filter:blur(5px);
+            filter:blur(5px);
+            
+    -webkit-transition:all 0.3s ease;
+            transition:all 0.3s ease;
+}
+
+img:hover{
+    -webkit-filter:blur(0);
+            filter:blur(0);
+    cursor: crosshair;
+}
+
+div{
+    color:rgb(94, 40, 128);
+    border: 2px solid rgb(79, 11, 121);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+list{
+    text-align: center;
+    color:rgb(79, 11, 121);
+    
+}
+
+ul{
+    text-align: center;
+    list-style: inside;
+    display: inline;
+    
+}
+
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+
+}
+
+tr:nth-child(even) {
+    background-color: rgb(156, 104, 188);
+
+}
+
+tr:hover{
+    background-color: rgb(110, 155, 133);
+}
